@@ -1,0 +1,48 @@
+.slide-right {
+  width: 100%;
+}
+.slide-right h2 {
+  animation: .8s slide-right .2s forwards;
+    transform:translateX(-100%);
+}
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
+.slide-left {
+    width: 100%;
+  }
+  .slide-left h1 {
+    animation: .8s slide-right 1s forwards;
+      transform:translateX(100%);
+  }
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
+  
+
+
+.ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+  }
+  
+  .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
