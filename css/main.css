@@ -1,5 +1,5 @@
 /*! 
- * Edited from template by:
+ * adapted from template by:
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
@@ -98,18 +98,18 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #ff5445;
-  border-color: #ff5445;
+  background-color: #ed2e0c;
+  border-color: #dd2a0b;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #45cdff !important;
-  border-color: #45cdff !important;
+  background-color: #0ca4e6 !important;
+  border-color: #0ca4e6 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5) !important;
 }
 
 #mainNav {
