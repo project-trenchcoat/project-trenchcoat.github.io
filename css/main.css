@@ -204,6 +204,7 @@ header.masthead .intro-text .intro-lead-in {
     transform:translateX(-100%);
 }
 
+
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
@@ -213,6 +214,11 @@ header.masthead .intro-text .intro-heading {
 
   animation: 1s slide-right 1.2s forwards;
     transform:translateX(150%);
+}
+
+#delayed {
+  opacity: 0;
+  animation: .8s fade-in 2s forwards;
 }
 
 @media (min-width: 768px) {
