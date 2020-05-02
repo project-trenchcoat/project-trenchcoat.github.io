@@ -181,7 +181,7 @@ header.masthead {
   color: black;
   background-image: url("../img/header.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: center; /*parallax*/
   background-position: center center;
   background-size: cover;
 }
