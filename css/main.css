@@ -179,8 +179,8 @@ header.masthead {
   text-align: center;
   color: black;
   background-image: url("../img/header.png");
-  background-repeat: repeat-y;
-  background-attachment: fixed; /*parallax*/
+  background-repeat: no-repeat;
+  background-attachment: center; /*parallax*/
   background-position: center center;
   background-size: cover;
 }
